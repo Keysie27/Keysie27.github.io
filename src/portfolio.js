@@ -45,69 +45,80 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Data Engineer & AI Specialist passionate about building scalable data platforms and intelligent solutions.",
+  subTitle:
+    "Data Engineer & AI Specialist passionate about building scalable data platforms and intelligent solutions.",
   skills: [
-    emoji("⚡ Design and orchestrate large-scale ETL/ELT pipelines with dbt, Dagster, and Snowflake."),
-    emoji("⚡ Build real-time data ingestion and streaming solutions using Apache Kafka and AWS."),
-    emoji("⚡ Develop NLP and multi-agent AI solutions to transform complex data into insights."),
-    emoji("⚡ Optimize data models and warehouse performance, reducing cost and increasing efficiency."),
-    emoji("⚡ Deliver hands-on training in AI, Data Science, and Robotics to professionals worldwide.")
+    emoji(
+      "⚡ Design and orchestrate large-scale ETL/ELT pipelines with dbt, Dagster, and Snowflake."
+    ),
+    emoji(
+      "⚡ Build real-time data ingestion and streaming solutions using Apache Kafka and AWS."
+    ),
+    emoji(
+      "⚡ Develop NLP and multi-agent AI solutions to transform complex data into insights."
+    ),
+    emoji(
+      "⚡ Optimize data models and warehouse performance, reducing cost and increasing efficiency."
+    ),
+    emoji(
+      "⚡ Deliver hands-on training in AI, Data Science, and Robotics to professionals worldwide."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "Snowflake",
-    fontAwesomeClassname: "fas fa-snowflake"
-  },
-  {
-    skillName: "dbt",
-    fontAwesomeClassname: "fas fa-project-diagram"
-  },
-  {
-    skillName: "SQL/NoSQL Databases",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "Snowflake",
-    fontAwesomeClassname: "fas fa-snowflake"
-  },
-  {
-    skillName: "dbt",
-    fontAwesomeClassname: "fas fa-project-diagram"
-  },
-  {
-    skillName: "Apache Kafka",
-    fontAwesomeClassname: "fas fa-stream"
-  },
-  {
-    skillName: "AWS",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "Azure Databricks",
-    fontAwesomeClassname: "fas fa-cloud"
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "Git / GitHub",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "Machine Learning / AI",
-    fontAwesomeClassname: "fas fa-robot"
-  }
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake"
+    },
+    {
+      skillName: "dbt",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "SQL/NoSQL Databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake"
+    },
+    {
+      skillName: "dbt",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "Apache Kafka",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Azure Databricks",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git / GitHub",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Machine Learning / AI",
+      fontAwesomeClassname: "fas fa-robot"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -220,7 +231,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thryvLogo.webp"),
       projectName: "Thryv",
-      projectDesc: "SaaS business management platform for small and medium-sized businesses",
+      projectDesc:
+        "SaaS business management platform for small and medium-sized businesses",
       footerLink: [
         {
           name: "Visit Website",
@@ -231,7 +243,8 @@ const bigProjects = {
     {
       image: require("./assets/images/kanvasLogo2.png"),
       projectName: "Kanvas",
-      projectDesc: "Operational engine that unifies systems and extends digital stacks for businesses.",
+      projectDesc:
+        "Operational engine that unifies systems and extends digital stacks for businesses.",
       footerLink: [
         {
           name: "Visit Website",
@@ -242,7 +255,8 @@ const bigProjects = {
     {
       image: require("./assets/images/mctekLogo.png"),
       projectName: "Mctekk",
-      projectDesc: "Software company that builds B2B platforms, marketplaces, and mobile apps",
+      projectDesc:
+        "Software company that builds B2B platforms, marketplaces, and mobile apps",
       footerLink: [
         {
           name: "Visit Website",
@@ -258,7 +272,8 @@ const bigProjects = {
 
 const clientsSection = {
   title: "My Clients",
-  subtitle: "SOME ORGANIZATIONS I HAVE COLABORATED WITH THROUGH CONSULTING, TEACHING, AND TALKS",
+  subtitle:
+    "SOME ORGANIZATIONS I HAVE COLABORATED WITH THROUGH CONSULTING, TEACHING, AND TALKS",
   logos: [
     {
       image: require("./assets/images/infotecLogo.jpg"),
@@ -301,8 +316,7 @@ const clientsSection = {
 
 const achievementSection = {
   title: emoji("Achievements "),
-  subtitle:
-    "Some Cool Stuff that I have done !",
+  subtitle: "Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -345,7 +359,8 @@ const achievementSection = {
     },
     {
       title: "Studied Data Analytics in Canada",
-      subtitle: "Awarded the Emerging Leaders in the Americas Program for Data Analytics studies in Canada",
+      subtitle:
+        "Awarded the Emerging Leaders in the Americas Program for Data Analytics studies in Canada",
       image: require("./assets/images/educanadaLogo.jpg"),
       footerLink: [
         {

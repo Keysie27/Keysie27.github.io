@@ -1,5 +1,5 @@
-import { Fade } from "react-reveal";
-import { clientsSection } from "../../portfolio";
+import {Fade} from "react-reveal";
+import {clientsSection} from "../../portfolio";
 import "./Clients.scss";
 
 export default function Clients() {
