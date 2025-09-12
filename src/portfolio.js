@@ -82,20 +82,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Sigma",
+      fontAwesomeClassname: "fas fa-superscript"
+    },
+    {
+      skillName: "Domo",
+      fontAwesomeClassname: "fas fa-chart-pie"
+    },
+    {
       skillName: "SQL/NoSQL Databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Snowflake",
-      fontAwesomeClassname: "fas fa-snowflake"
-    },
-    {
-      skillName: "dbt",
-      fontAwesomeClassname: "fas fa-project-diagram"
-    },
-    {
       skillName: "Apache Kafka",
       fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Jira",
+      fontAwesomeClassname: "fas fa-tasks"
     },
     {
       skillName: "AWS",
