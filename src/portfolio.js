@@ -229,7 +229,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/kanvasLogo.png"),
+      image: require("./assets/images/kanvasLogo2.png"),
       projectName: "Kanvas",
       projectDesc: "Operational engine that unifies systems and extends digital stacks for businesses.",
       footerLink: [
@@ -349,7 +349,7 @@ const achievementSection = {
       image: require("./assets/images/educanadaLogo.jpg"),
       footerLink: [
         {
-          name: "Program Info",
+          name: "About the program",
           url: "https://www.educanada.ca/index.aspx?lang=eng"
         }
       ]

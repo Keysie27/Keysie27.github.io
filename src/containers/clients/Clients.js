@@ -9,7 +9,7 @@ export default function Clients() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main clients-section">
         <div className="clients-heading-div">
-          <h1 className="heading clients-heading">{clientsSection.title}</h1>
+          <h1 className="project-title">{clientsSection.title}</h1>
           <p className="subTitle clients-subtitle">{clientsSection.subtitle}</p>
         </div>
         <div className="clients-logos-div">
