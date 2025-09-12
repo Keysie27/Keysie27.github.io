@@ -252,7 +252,7 @@ const bigProjects = {
       image: require("./assets/images/kanvasLogo2.png"),
       projectName: "Kanvas",
       projectDesc:
-        "Operational engine that unifies systems and extends digital stacks for businesses.",
+        "Operational engine that unifies systems and extends digital stacks for businesses",
       footerLink: [
         {
           name: "Visit Website",
