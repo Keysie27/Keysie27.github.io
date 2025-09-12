@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Keysie Sanchez",
-  title: "Hi all, I'm Keysie",
+  title: "Hey there, I'm Keysie",
   subTitle: emoji(
     "Data & AI Engineer 🚀 with 5+ years of experience in IT, building scalable data pipelines, AI solutions, and cloud-based platforms. Skilled at transforming complex data into insights and automation for global companies."
   ),
@@ -195,14 +195,14 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "My Projects",
   subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -257,12 +257,16 @@ const bigProjects = {
 // Clients / Consulting Section
 
 const clientsSection = {
-  title: "Clients & Consulting",
-  subtitle: "Some organizations I have collaborated with through consulting, teaching, and talks",
+  title: "My Clients",
+  subtitle: "SOME ORGANIZATIONS I HAVE COLABORATED WITH THROUGH CONSULTING, TEACHING, AND TALKS",
   logos: [
     {
       image: require("./assets/images/infotecLogo.jpg"),
       name: "INFOTEC"
+    },
+    {
+      image: require("./assets/images/huaweiLogo.png"),
+      name: "HUAWEI"
     },
     {
       image: require("./assets/images/ecopetrolLogo.png"),
@@ -271,6 +275,10 @@ const clientsSection = {
     {
       image: require("./assets/images/eysLogo.png"),
       name: "E&S Global"
+    },
+    {
+      image: require("./assets/images/aciemLogo.webp"),
+      name: "ACIEM"
     },
     {
       image: require("./assets/images/itlaLogo.png"),
@@ -292,56 +300,57 @@ const clientsSection = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "WhiteBox XAI Agent",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "I developed a VS Code Extension that uses NLP to help developers to train ML models",
+      image: require("./assets/images/whitebox_logo.png"),
+      imageAlt: "WhiteBox XAI Agent Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Open in Marketplace",
+          url: "https://marketplace.visualstudio.com/items?itemName=PublisherTemp.whitebox-xai-agent"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "HCIA AI Certification",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Was among the first 10 in LATAM to achieve the Huawei Cloud HCIA-AI certification",
+      image: require("./assets/images/huaweicertLogo.png"),
+      imageAlt: "Huawei certification",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1tADO4kvH6n8gfsR_0aKmBB1zVsvBXjNy/view?usp=sharing"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "ICT International Chinese Competition Winner",
+      subtitle:
+        "Winner of the Cloud, BigData and AI track of the ICT Competition in 2023",
+      image: require("./assets/images/ict_ceremony.jpg"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "About the competition",
+          url: "https://www.huawei.com/minisite/ict-competition-2024-2025-global/en/index.html"
+        }
+      ]
+    },
+    {
+      title: "Studied Data Analytics in Canada",
+      subtitle: "Awarded the Emerging Leaders in the Americas Program for Data Analytics studies in Canada",
+      image: require("./assets/images/educanadaLogo.jpg"),
+      footerLink: [
+        {
+          name: "Program Info",
+          url: "https://www.educanada.ca/index.aspx?lang=eng"
         }
       ]
     }
@@ -415,7 +424,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-6179978214",
