@@ -110,10 +110,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-bolt"
     },
     {
-      skillName: "Apache Hadoop",
-      fontAwesomeClassname: "fas fa-elephant"
-    },
-    {
       skillName: "Jira",
       fontAwesomeClassname: "fas fa-tasks"
     },
