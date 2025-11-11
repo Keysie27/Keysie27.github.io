@@ -82,7 +82,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
-      skillName: "Power BI",
+      skillName: "QuickSight",
       fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
@@ -90,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-superscript"
     },
     {
-      skillName: "Domo",
+      skillName: "Looker",
       fontAwesomeClassname: "fas fa-chart-pie"
     },
     {
@@ -102,6 +102,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-stream"
     },
     {
+      skillName: "Dagster",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "Apache Hadoop",
+      fontAwesomeClassname: "fas fa-elephant"
+    },
+    {
       skillName: "Jira",
       fontAwesomeClassname: "fas fa-tasks"
     },
@@ -110,7 +122,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Azure Databricks",
+      skillName: "Google Cloud",
       fontAwesomeClassname: "fas fa-cloud"
     },
     {
