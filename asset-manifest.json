@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.64e0a66d.css",
-    "main.js": "/static/js/main.53234b6f.js",
+    "main.js": "/static/js/main.1c7b77c3.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
-    "static/media/ict_ceremony.jpg": "/static/media/ict_ceremony.f952fa4e3c2668120bef.jpg",
+    "static/media/ict_ceremony.jpg": "/static/media/ict_ceremony.6239242993c91ce94e6e.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.0ba6d9aab297614bf787.pdf",
     "static/media/ecopetrolLogo.png": "/static/media/ecopetrolLogo.8ada0a4d091937d3907f.png",
     "static/media/itlaLogo.png": "/static/media/itlaLogo.9c885f85fcc5a4d00044.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -36,7 +35,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.64e0a66d.css.map": "/static/css/main.64e0a66d.css.map",
-    "main.53234b6f.js.map": "/static/js/main.53234b6f.js.map",
+    "main.1c7b77c3.js.map": "/static/js/main.1c7b77c3.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -44,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.64e0a66d.css",
-    "static/js/main.53234b6f.js"
+    "static/js/main.1c7b77c3.js"
   ]
 }
