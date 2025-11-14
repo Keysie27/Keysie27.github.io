@@ -26,7 +26,7 @@ const greeting = {
     "Data & AI Engineer 🚀 with 5+ years of experience in IT, building scalable data pipelines, AI solutions, and cloud-based platforms. Skilled at transforming complex data into insights and automation for global companies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TtV7umxmBu3Y82HpNg893Bv0QZ8UVFoI/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hPE8SgQ6Yzk4Wh6gdEREvLDKFwmR_AFI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
