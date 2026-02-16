@@ -338,7 +338,7 @@ const achievementSection = {
     {
       title: "WhiteBox XAI Agent",
       subtitle:
-        "I developed a VS Code Extension that uses NLP to help developers to train ML models",
+        "I developed a VS Code Extension that uses NLP and Streamlit to help developers to train ML models",
       image: require("./assets/images/whitebox_logo.png"),
       imageAlt: "WhiteBox XAI Agent Logo",
       footerLink: [
